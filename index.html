@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LearnLilMinds</title>
+    <link rel="icon" href="green\books.png" type="image/x-icon">
+</head>
+<body>
+    <div class="background-container" id="section1">
+        <button class="button" onclick="scrollToSecondContent()">Videos</button>
+        <img class="background-image" src="green\bg.png" alt="Background Image">
+        <div class="side-image" >
+            <img class="sideimg1" src="public\logo.png" alt="Background Image">
+            <h1 class="logo-text">KRISHNA TRUST</h1>
+        </div>
+        
+            <img class="sideimg2" src="green\books.png" alt="Background Image">
+            <img class="sideimg3" src="green\laptop.png" alt="Background Image">
+            <img class="sideimg4" src="green\penstand.png" alt="Background Image">
+            <img class="sideimg5" src="green\star.PNG" alt="Background Image">
+            <img class="sideimg6" src="green\bulb.png" alt="Background Image">
+
+    </div>
+    <div class="second-content" id="second-content">
+        <img class="heading-img" src="public\roundrect.png" alt="Background Image">
+        <img class="video-img" src="green\videotxt.PNG" alt="Background Image">
+        <div class="image-grid" id="image-grid">
+            <a href="videos\final__Trees.mp4"> 
+                <img class="img1" src="public\TREES.png" alt="Background Image">
+            </a>
+            <a href="videos\Birds (1).mp4"> 
+                <img class="img2" src="public\birds.png" alt="Background Image">
+            </a>
+            <a href="videos\Domestic animals.mp4"> 
+            <img class="img3" src="public\domestic.png" alt="Background Image">
+            </a>
+            <a href="videos\fruits.mp4"> 
+            <img class="img4" src="public\fruits.png" alt="Background Image">
+            </a>
+            <a href="videos\sports_crt.mp4"> 
+            <img class="img5" src="public\games.png" alt="Background Image">
+            </a>
+            <a href="videos\_occupation_crt.mp4"> 
+            <img class="img6" src="public\jobs.png" alt="Background Image">
+            </a>
+            <a href="videos\Numbers.mp4"> 
+            <img class="img7" src="public\number.png" alt="Background Image">
+            </a>
+            <a href="videos\final__herbs.mp4"> 
+            <img class="img8" src="public\plants.png" alt="Background Image">
+            </a>
+            <a href="videos\pulses_crt.mp4"> 
+            <img class="img9" src="public\pulses.png" alt="Background Image">
+            </a>
+            <a href="videos\Seasons.mp4"> 
+            <img class="img10" src="public\seasons.png" alt="Background Image">
+            </a>
+            <a href="videos\Flowers.mp4"> 
+            <img class="img11" src="public\flowers.png" alt="Background Image">
+            </a>
+            <a href="videos\Modes of Transportation_final (1).mp4"> 
+            <img class="img12" src="public\transportation.png" alt="Background Image">
+            </a>
+            <a href="videos\Vegetables_final.mp4"> 
+            <img class="img13" src="public\veg.png" alt="Background Image">
+            </a>
+            <a href="videos\Wild Animals_final (1).mp4"> 
+            <img class="img14" src="public\wild.png" alt="Background Image">
+            </a>
+            <a href="videos\action words.mp4"> 
+            <img class="img15" src="public\action.png" alt="Background Image">
+            </a>
+            <a href="videos\final__signboards.mp4"> 
+                <img class="img16" src="public\sign boards.png" alt="Background Image">
+            </a>
+        </div>
+    </div>
+    <script>
+        function scrollToSecondContent() {
+            const secondContent = document.getElementById("second-content");
+            const position = secondContent.offsetTop;
+            window.scrollTo({
+                top: position,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+</html>
